@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sarrazi-new
+    env: node
+    plan: free
+    buildCommand: ""
+    startCommand: "./.render-build.sh"
